@@ -1,0 +1,37 @@
+p{
+  font-size: 22px;
+  line-height: 10;
+  text-align: center;
+  
+}
+
+li{
+  display: inline-block;
+}
+
+.slider {
+	width: 480px;
+	height: 320px;
+	overflow: hidden;
+}
+
+.slide {
+	width: 480px;
+	height: 320px;
+}
+
+.slide.ng-move, .slide.ng-enter, .slide.ng-leave {
+	-webkit-transition: 1s ease all; 
+	transition: 1s ease all; 
+}
+
+.slide.ng-move,
+.slide.ng-enter, 
+.slide.ng-leave.ng-leave-active{
+  margin-left: -150px;
+}
+.slide.ng-enter, 
+.slide.ng-leave,
+.slide.ng-move.ng-move-active {
+  margin-left: 0px;
+}
