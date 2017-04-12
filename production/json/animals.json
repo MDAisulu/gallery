@@ -1,1 +1,52 @@
-[{"path":"production/photos/animals","name":"animals","children":[{"path":"production/photos/animals/1.jpeg","name":"1.jpeg","size":7068,"extension":".jpeg"},{"path":"production/photos/animals/2.jpg","name":"2.jpg","size":344671,"extension":".jpg"},{"path":"production/photos/animals/3.jpg","name":"3.jpg","size":73889,"extension":".jpg"}],"size":425628}]
+{
+    "path": "/photos/animals",
+    "name": "animals",
+    "type": "folder",
+    "children": [
+        {
+            "path": "/photos/animals/1.jpeg",
+            "name": "1.jpeg",
+            "type": "file"
+        },
+        {
+            "path": "/photos/animals/2.jpg",
+            "name": "2.jpg",
+            "type": "file"
+        },
+        {
+            "path": "/photos/animals/3.jpg",
+            "name": "3.jpg",
+            "type": "file"
+        },
+        {
+            "path": "/photos/animals/4.jpg",
+            "name": "4.jpg",
+            "type": "file"
+        },
+        {
+            "path": "/photos/animals/5.jpg",
+            "name": "5.jpg",
+            "type": "file"
+        },
+        {
+            "path": "/photos/animals/6.jpg",
+            "name": "6.jpg",
+            "type": "file"
+        },
+        {
+            "path": "/photos/animals/7.jpeg",
+            "name": "7.jpeg",
+            "type": "file"
+        },
+        {
+            "path": "/photos/animals/8.jpg",
+            "name": "8.jpg",
+            "type": "file"
+        },
+        {
+            "path": "/photos/animals/bars.png",
+            "name": "bars.png",
+            "type": "file"
+        }
+    ]
+}

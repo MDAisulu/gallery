@@ -1,9 +1,6 @@
-<div><a href="#/">Photo Gallery</a>
-<div ng-repeat="i in photos">
-  <ul ng-repeat="a in i.children">
-    <li> 
-      <img ng-src="{{a.path}}" />
-    </li>
-  </ul>
+<div>
+  <a href="#!/">Photo Gallery</a>
+  <div ng-repeat="photo in photos">
+    <a ng-href="#!/{{photo.name}}">{{photo.name}}</a>
   </div>
 </div>

@@ -2,7 +2,7 @@
 const NODE_ENV = process.env.NODE_ENV || 'development';
 const webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var FileListPlugin = require('gallery-plugin/galleryPlugin');
+var GalleryPlugin = require('gallery-plugin/galleryPlugin');
 
 module.exports = {
 	context: __dirname + '/app/js',
@@ -10,7 +10,8 @@ module.exports = {
 
 	output:{
 		path: __dirname + '/production/js',
-		filename: "bundle.js"
+		filename: "bundle.js",
+		publicPath: "/"
 	},
 
 	watch: true,
@@ -26,7 +27,7 @@ module.exports = {
 		new webpack.DefinePlugin({
 			NODE_ENV: JSON.stringify(NODE_ENV)
 		}), 
-		new FileListPlugin()
+		new GalleryPlugin()
 
 		// new webpack.optimize.UglifyJsPlugin({
 		// 	compress: {
@@ -70,7 +71,7 @@ module.exports = {
 			},
 			{
 				test: /\.(jpe?g|png|gif|svg)$/i,
-				loader: 'img-loader'
+				loader: 'img-loader?name=[path]/[name].[ext]'
 			}
 		]
 	}

@@ -2,21 +2,11 @@
 <html ng-app="app">
 <head>
 <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="../bundle.css">
   <title>Photo Gallery</title>
 </head>
-<body ng-controller="GalleryCtrl">
-<!-- <ng-view></ng-view> -->
-
-<div ng-repeat="i in photos">
-  <div ng-repeat="photo in i.children">
-    <a href="#/photos/{{photo.name}}">{{photo.name}}</a> 
-    <ul ng-repeat="img in photo.children">
-      <li>
-        <img src="../{{img.path}}" />
-      </li>
-    </ul>   
-    
-  </div>
+<body ng-controller="MainCtrl">
+<div>
   <ng-view></ng-view>
 </div>
 <script src="../bundle.js"></script>

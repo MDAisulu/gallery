@@ -1,1 +1,47 @@
-[{"path":"production/photos/birds","name":"birds","children":[{"path":"production/photos/birds/2.jpg","name":"2.jpg","size":33114,"extension":".jpg"},{"path":"production/photos/birds/3.jpeg","name":"3.jpeg","size":10112,"extension":".jpeg"},{"path":"production/photos/birds/index.jpeg","name":"index.jpeg","size":7206,"extension":".jpeg"}],"size":50432}]
+{
+    "path": "/photos/birds",
+    "name": "birds",
+    "type": "folder",
+    "children": [
+        {
+            "path": "/photos/birds/2.jpg",
+            "name": "2.jpg",
+            "type": "file"
+        },
+        {
+            "path": "/photos/birds/3.jpeg",
+            "name": "3.jpeg",
+            "type": "file"
+        },
+        {
+            "path": "/photos/birds/4.jpg",
+            "name": "4.jpg",
+            "type": "file"
+        },
+        {
+            "path": "/photos/birds/5.jpg",
+            "name": "5.jpg",
+            "type": "file"
+        },
+        {
+            "path": "/photos/birds/6.jpeg",
+            "name": "6.jpeg",
+            "type": "file"
+        },
+        {
+            "path": "/photos/birds/7.jpg",
+            "name": "7.jpg",
+            "type": "file"
+        },
+        {
+            "path": "/photos/birds/8.jpg",
+            "name": "8.jpg",
+            "type": "file"
+        },
+        {
+            "path": "/photos/birds/index.jpeg",
+            "name": "index.jpeg",
+            "type": "file"
+        }
+    ]
+}

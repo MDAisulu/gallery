@@ -8,7 +8,7 @@ p{
 li{
   display: inline-block;
 }
-
+/*
 .slider {
 	width: 480px;
 	height: 320px;
@@ -34,4 +34,194 @@ li{
 .slide.ng-leave,
 .slide.ng-move.ng-move-active {
   margin-left: 0px;
+}*/
+
+/*div#carousel { 
+  perspective: 1200px; 
+  background: #100000; 
+  padding-top: 10%; 
+  font-size:0; 
+  margin-bottom: 3rem; 
+  overflow: hidden; 
+}
+figure#spinner { 
+  transform-style: preserve-3d; 
+  height: 300px; 
+  transform-origin: 50% 50% -500px; 
+  transition: 1s; 
+} 
+figure#spinner img { 
+  width: 40%; max-width: 425px; 
+  position: absolute; left: 30%;
+  transform-origin: 50% 50% -500px;
+  outline:1px solid transparent; 
+}
+figure#spinner img:nth-child(1) { transform:rotateY(0deg); 
+}
+figure#spinner img:nth-child(2) { transform: rotateY(-45deg); }
+figure#spinner img:nth-child(3) { transform: rotateY(-90deg); }
+figure#spinner img:nth-child(4) { transform: rotateY(-135deg); }
+figure#spinner img:nth-child(5){ transform: rotateY(-180deg); }
+figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
+figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
+figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
+div#carousel ~ span { 
+  color: #fff; 
+  margin: 5%; 
+  display: inline-block; 
+  text-decoration: none; 
+  font-size: 2rem; 
+  transition: 0.6s color; 
+  position: relative; 
+  margin-top: -6rem; 
+  border-bottom: none; 
+  line-height: 0; }
+div#carousel ~ span:hover { color: #888; cursor: pointer; }
+
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+*/
+body{
+  font-family: sans-serif;
+  color: #444444;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+ul, ol{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.full-width-slider{
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+}
+.slides{
+  position: relative;
+  height: 100%;
+  background-color: dodgerblue;
+};
+.slides li{
+  display: table;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform: translateX(100%);
+  transition: transform .5s;
+  background-color: tomato;
+/*  //background: url(../img/slider-01.jpg) no-repeat center center;
+  //background-size: cover;
+*/};
+.slides li:nth-of-type(2) {
+  background-color: dodgerblue;
+/*  //background: url(../img/slider-02.jpg) no-repeat center center
+  //background-size: cover*/
+}
+.slides li:nth-of-type(3){
+  background-color: aquamarine
+/*  //background: url(../img/slider-02.jpg) no-repeat center center;
+  //background-size: cover;*/
+}
+.slides li:nth-of-type(4) {
+  background-color: darkseagreen;
+/*  //background: url(../img/slider-02.jpg) no-repeat center center;
+  //background-size: cover;*/
+}
+.slides li.selected {
+  z-index: 2;
+  transform: translateX(0);
+}
+.slides li.move-left {
+  transform: translateX(-100%);
+}
+
+.slides li.visible{
+  z-index: 2;
+}
+
+.slides li > div {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #FFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slides h2{
+  margin-top: 0;
+}
+
+.slider-navigation a{
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+  height: 48px;
+  width: 48px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 100;
+/*  //text replace
+  //overflow: hidden
+  //white-space: nowrap
+  //text-indent: 100%
+  //color: transparent
+  //background: url(../img/icon-arrow.svg) no-repeat center center*/
+  opacity: 0.5;
+  transition: opacity .3s, visibility .3s;
+}
+  &:hover{
+    opacity: 1;
+}
+
+@media (max-width: 500px) {
+    display: none;
+}
+.slider-navigation a.next{
+  left: auto;
+  right: 10px;
+}
+
+.slider-dots-navigation {
+  position: absolute;
+  z-index: 3;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+  @media (max-width: 500px){
+    display: none;
+}
+.slider-dots-navigation li {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+  &:last-of-type{
+    margin-right: 0;
+}
+.slider-dots-navigation a {
+  display: block;
+  height: 14px;
+  width: 14px;
+  border: 1px solid #FFF;
+  border-radius: 50%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 100%;
+  color: transparent;
+  transition: background-color .3s;
+    }
+
+.slider-dots-navigation a:hover,
+.slider-dots-navigation a.selected {
+  background-color: #FFF;
 }

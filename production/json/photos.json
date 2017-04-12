@@ -1,1 +1,215 @@
-[{"path":"./production/photos/","name":"photos","children":[{"path":"production/photos/animals","name":"animals","children":[{"path":"production/photos/animals/1.jpeg","name":"1.jpeg","size":7068,"extension":".jpeg"},{"path":"production/photos/animals/2.jpg","name":"2.jpg","size":344671,"extension":".jpg"},{"path":"production/photos/animals/3.jpg","name":"3.jpg","size":73889,"extension":".jpg"}],"size":425628},{"path":"production/photos/birds","name":"birds","children":[{"path":"production/photos/birds/2.jpg","name":"2.jpg","size":33114,"extension":".jpg"},{"path":"production/photos/birds/3.jpeg","name":"3.jpeg","size":10112,"extension":".jpeg"},{"path":"production/photos/birds/index.jpeg","name":"index.jpeg","size":7206,"extension":".jpeg"}],"size":50432},{"path":"production/photos/insects","name":"insects","children":[{"path":"production/photos/insects/2.jpg","name":"2.jpg","size":58573,"extension":".jpg"},{"path":"production/photos/insects/3.jpg","name":"3.jpg","size":84276,"extension":".jpg"},{"path":"production/photos/insects/index.jpeg","name":"index.jpeg","size":14827,"extension":".jpeg"}],"size":157676}],"size":633736}]
+{
+    "path": "/photos",
+    "name": "photos",
+    "type": "folder",
+    "children": [
+        {
+            "path": "/photos/animals",
+            "name": "animals",
+            "type": "folder",
+            "children": [
+                {
+                    "path": "/photos/animals/1.jpeg",
+                    "name": "1.jpeg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/animals/2.jpg",
+                    "name": "2.jpg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/animals/3.jpg",
+                    "name": "3.jpg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/animals/4.jpg",
+                    "name": "4.jpg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/animals/5.jpg",
+                    "name": "5.jpg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/animals/6.jpg",
+                    "name": "6.jpg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/animals/7.jpeg",
+                    "name": "7.jpeg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/animals/8.jpg",
+                    "name": "8.jpg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/animals/bars.png",
+                    "name": "bars.png",
+                    "type": "file"
+                }
+            ]
+        },
+        {
+            "path": "/photos/birds",
+            "name": "birds",
+            "type": "folder",
+            "children": [
+                {
+                    "path": "/photos/birds/2.jpg",
+                    "name": "2.jpg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/birds/3.jpeg",
+                    "name": "3.jpeg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/birds/4.jpg",
+                    "name": "4.jpg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/birds/5.jpg",
+                    "name": "5.jpg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/birds/6.jpeg",
+                    "name": "6.jpeg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/birds/7.jpg",
+                    "name": "7.jpg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/birds/8.jpg",
+                    "name": "8.jpg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/birds/index.jpeg",
+                    "name": "index.jpeg",
+                    "type": "file"
+                }
+            ]
+        },
+        {
+            "path": "/photos/insects",
+            "name": "insects",
+            "type": "folder",
+            "children": [
+                {
+                    "path": "/photos/insects/2.jpg",
+                    "name": "2.jpg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/insects/3.jpg",
+                    "name": "3.jpg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/insects/4.jpg",
+                    "name": "4.jpg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/insects/5.jpeg",
+                    "name": "5.jpeg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/insects/6.jpg",
+                    "name": "6.jpg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/insects/7.jpg",
+                    "name": "7.jpg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/insects/8.jpeg",
+                    "name": "8.jpeg",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/insects/Photo Gallery.html",
+                    "name": "Photo Gallery.html",
+                    "type": "file"
+                },
+                {
+                    "path": "/photos/insects/Photo Gallery_files",
+                    "name": "Photo Gallery_files",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "path": "/photos/insects/Photo Gallery_files/2.jpg",
+                            "name": "2.jpg",
+                            "type": "file"
+                        },
+                        {
+                            "path": "/photos/insects/Photo Gallery_files/3.jpeg",
+                            "name": "3.jpeg",
+                            "type": "file"
+                        },
+                        {
+                            "path": "/photos/insects/Photo Gallery_files/4.jpg",
+                            "name": "4.jpg",
+                            "type": "file"
+                        },
+                        {
+                            "path": "/photos/insects/Photo Gallery_files/5.jpg",
+                            "name": "5.jpg",
+                            "type": "file"
+                        },
+                        {
+                            "path": "/photos/insects/Photo Gallery_files/6.jpeg",
+                            "name": "6.jpeg",
+                            "type": "file"
+                        },
+                        {
+                            "path": "/photos/insects/Photo Gallery_files/7.jpg",
+                            "name": "7.jpg",
+                            "type": "file"
+                        },
+                        {
+                            "path": "/photos/insects/Photo Gallery_files/8.jpg",
+                            "name": "8.jpg",
+                            "type": "file"
+                        },
+                        {
+                            "path": "/photos/insects/Photo Gallery_files/bundle.css",
+                            "name": "bundle.css",
+                            "type": "file"
+                        },
+                        {
+                            "path": "/photos/insects/Photo Gallery_files/bundle.js",
+                            "name": "bundle.js",
+                            "type": "file"
+                        },
+                        {
+                            "path": "/photos/insects/Photo Gallery_files/index.jpeg",
+                            "name": "index.jpeg",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "path": "/photos/insects/index.jpeg",
+                    "name": "index.jpeg",
+                    "type": "file"
+                }
+            ]
+        }
+    ]
+}
